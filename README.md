@@ -14,10 +14,10 @@ You can run the application by maven repository
 ## Api Description
 This api includes next endpoints:
 
-- Get User By Identifier
-
-
+#### Get User By Identifier
+    
     GET Http://{host}:{port}/user/{id}
+    
 returned JSON:
 
     {
@@ -25,22 +25,23 @@ returned JSON:
         "email": "1@1.tv",
         "firstName": "Ivan",
         "secondName": "Ivanov"
-    }  
+    }
+    
+#### Create or update user
 
-- Create or update user
 
-
-    POST Http://{host}:{port}/user
+    POST Http://{host}:{port}/user  
 Body
-
+    
     {
         "userId" : "3",
         "email" : "1@1.tv",
         "firstName" : "Ivan",
         "secondName" : "Ivanov"
     }
+    
 Return User Id
-- Create current location 
+#### Create current location 
 
 
     POST Http://{host}:{port}/location
@@ -55,7 +56,7 @@ Json
         }
     }
 
-- Get Last User Location
+#### Get Last User Location
 
 
     GET Http://{host}:{port}/location/{userId}
@@ -72,7 +73,7 @@ Returned Json
         }
     }
 
-- Get User Location from date Range
+#### Get User Location from date Range
 
 
     GET Http://{host}:{port}/location/range/{userId}?from={from}&?to={to}
