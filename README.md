@@ -108,7 +108,7 @@ Returned Json
     
 By default, host is a localhost, port is 8085
 ## Testing
-For testing this API you can use [Postman Collection](JITPay API.postman_collection.json)
+For testing this API you can use [Postman Collection](https://github.com/arseniyBardyzh/JitPayUserService/blob/master/JITPay%20API.postman_collection.json)
 
 By default, there is one User with identifier 1
 
