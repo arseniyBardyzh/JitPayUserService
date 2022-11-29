@@ -1,0 +1,1 @@
+INSERT INTO DOMAIN_USER (ID, EMAIL, FIRST_NAME, LAST_NAME) VALUES ( '1', '@@', 'Ivan', 'Ivanov' );
